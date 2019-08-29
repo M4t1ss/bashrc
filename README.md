@@ -1,5 +1,6 @@
 # .bashrc
 Useful bits to add to .bashrc
+
 Needs `sudo apt-get install gawk`
 
 * Add colors to the command line
