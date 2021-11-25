@@ -10,3 +10,10 @@ Needs `sudo apt-get install gawk`
 ## .nanorc
 I like to use Nano as my text editor. Here are a couple of shortcuts that are not included by default.
 Also, in case I forget, `ctrl+space` and `alt+space` moves between words.
+
+
+## Useful commands
+
+```bash
+du --max-depth=1 | sort -n | awk 'BEGIN {OFMT = "%.0f"} {print $1/1024,"MB", $2}'
+```
